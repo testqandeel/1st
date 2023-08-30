@@ -10,6 +10,7 @@
             "first_name": "Michael",
             "last_name": "Lawson",
             "avatar": "test link"
+            phone number: '232323'
         },
 
 need to test the committed changes in the file
