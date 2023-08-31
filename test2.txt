@@ -1,4 +1,4 @@
-var responseJSON = pm.response.json();
+pm.tes(response in json data);
 
 pm.test("Response status code is 422", function () {
     pm.response.to.have.status(422);
