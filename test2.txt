@@ -1,13 +1,13 @@
 pm.tes(response in json data);
 
-pm.test("Response status code is 422", function () {
-    pm.response.to.have.status(422);
+pm.test("Response status code is 202", function () {
+    pm.response.to.have.status(202);
 })
 
-pm.test("Failure Messgae - Phone Number Is Null", function(){
+pm.test("Failure Messgae - Phone Number not tobe Null", function(){
     pm.expect(responseJSON.message).is.eql("The phone field is required.")
 })
 
-pm.test("Failure Messgae - Invalid", function(){
+pm.test("Failure Messgae - valid", function(){
     pm.expect(responseJSON.message).is.eql("Invalid phone number.")
 })
